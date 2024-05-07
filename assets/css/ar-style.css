@@ -1,0 +1,31 @@
+body {
+    direction: rtl;
+}
+.effectLineScroll .barre {
+    left: 1px;
+    transform: translateX(100%);
+}
+.sidebar > li > a {
+	padding-right: 30px;
+}
+.sidebar li:before {
+	left: auto;
+	right: 0;
+}
+.get-service {
+    background-position: right 30px bottom;
+}
+.work-overlay {
+    transform: translateX(100%);
+}
+.navbar__button-block {
+    left: calc(((100% - 750px) / 2) + 15px);
+}
+.sidebar {
+	padding-right: 0;
+}
+@media (max-width: 768px) {
+	.navbar__button-block {
+		left: 15px;
+	}
+}
